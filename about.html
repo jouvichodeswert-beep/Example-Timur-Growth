@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Jouvicho Engelbert</title>
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- ALL CSS DIGABUNG -->
+    <style>
+        body {
+            margin: 0;
+            background-color: #f6f8fc;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: #ffffff;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+        }
+        nav a:hover {
+            color: #1d5ad1;
+        }
+
+        /* CONTAINER */
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 60px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 25px;
+            font-weight: 700;
+            color: #1f1f1f;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+            text-align: justify;
+            color: #333;
+        }
+
+        /* CONTACT BOXES */
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 20px;
+        }
+        .contact-box {
+            width: 150px;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-box:hover {
+            transform: translateY(-5px);
+        }
+        .icon {
+            width: 45px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+   <!-- ABOUT CONTENT -->
+<div class="container">
+    <h2>About Me</h2>
+    <p style="text-align: justify;">
+        Jouvicho is a Fisheries graduate from Pattimura University who is strongly committed 
+        to continuous learning and development, particularly in the fields of sustainable 
+        fisheries and AI technology. With experience in research, organization, and 
+        cross-institutional collaboration, Jouvicho is accustomed to working collaboratively, 
+        thinking creatively, and solving challenges with a structured approach. 
+        Currently, Jouvicho is focused on developing skills in AI technology relevant to the 
+        fisheries sector, while also strengthening leadership and networking capabilities. 
+        Jouvicho is always open to collaboration opportunities or new projects that can have 
+        a positive impact on the environment and society.
+    </p>
+</div>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+
+        <div class="contact-container">
+
+            <a class="contact-box" href="https://wa.me/6282399603500" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" class="icon">
+                <span>WhatsApp</span>
+            </a>
+
+            <a class="contact-box" href="mailto:jouvichod@gmail.com">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" class="icon">
+                <span>Email</span>
+            </a>
+
+            <a class="contact-box" href="https://instagram.com/jouvicho.engelbert" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="icon">
+                <span>Instagram</span>
+            </a>
+
+            <a class="contact-box" href="https://www.linkedin.com/in/jouvicho-engelbert/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="icon">
+                <span>LinkedIn</span>
+            </a>
+
+        </div>
+    </section>
+
+</body>
+</html>

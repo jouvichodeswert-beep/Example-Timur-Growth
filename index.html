@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jouvicho Engelbert</title>
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- ALL CSS DIGABUNG MENJADI SATU -->
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f6f8fc;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: #ffffff;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(135deg,#1d5ad1,#67bdfa);
+            color: white;
+        }
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+        }
+        .subtitle {
+            font-size: 20px;
+        }
+
+        /* ABOUT SECTION */
+        .about-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            padding: 80px 20px;
+        }
+        .about-section img {
+            width: 260px;
+            height: 260px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+        .about-section .container {
+            max-width: 500px;
+        }
+        .about-section h2 {
+            font-size: 28px;
+        }
+        .about-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #1d5ad1;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .about-link:hover {
+            background: #1449a8;
+        }
+
+        /* GENERIC SECTION */
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        /* CONTACT BOXES */
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+        .contact-box {
+            width: 150px;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-box:hover {
+            transform: translateY(-5px);
+        }
+        .icon {
+            width: 45px;
+            margin-bottom: 10px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .about-section {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Jouvicho Engelbert</h1>
+        <p class="subtitle">Fisheries Graduate | Fisheries Enthusiast | AI Learner</p>
+    </section>
+
+<!-- ABOUT -->
+<section class="about-section">
+    <img src="Jouvicho.jpg" alt="Foto Jouvicho">
+
+    <div class="container">
+        <h2>About Me</h2>
+
+        <p style="text-align: justify;">
+            Jouvicho is a Fisheries graduate from Pattimura University who is strongly committed 
+            to continuous learning and development, particularly in the fields of sustainable 
+            fisheries and AI technology. With experience in research, organization, and 
+            cross-institutional collaboration, Jouvicho is accustomed to working collaboratively, 
+            thinking creatively, and solving challenges with a structured approach.
+        </p>
+
+        <a class="about-link" href="about.html">Learn More About Me</a>
+    </div>
+</section>
+
+
+    <!-- PROJECT SECTION -->
+    <section id="project" class="section">
+        <h2>Project</h2>
+        <div class="contact-container">
+            <!-- Bisa isi konten project disini -->
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+
+        <div class="contact-container">
+
+            <a class="contact-box" href="https://wa.me/6282399603500" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" class="icon">
+                <span>WhatsApp</span>
+            </a>
+
+            <a class="contact-box" href="mailto:jouvichod@gmail.com">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" class="icon">
+                <span>Email</span>
+            </a>
+
+            <a class="contact-box" href="https://instagram.com/jouvicho.engelbert" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="icon">
+                <span>Instagram</span>
+            </a>
+
+            <a class="contact-box" href="https://www.linkedin.com/in/jouvicho-engelbert/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="icon">
+                <span>LinkedIn</span>
+            </a>
+
+        </div>
+    </section>
+
+</body>
+</html>
